@@ -1,4 +1,3 @@
-import { SignInUseCase } from "../application/usecases/SignInUseCase";
-import { SignUpUseCase } from "../application/usecases/SignUpUseCase";
+import { SignInUseCase } from "../application/usecases";
 
 export const makeSignInUseCase = () => new SignInUseCase();

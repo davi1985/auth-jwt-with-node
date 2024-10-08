@@ -1,4 +1,4 @@
-import { SignInUseController } from "../application/controllers/SignInController";
+import { SignInUseController } from "../application/controllers";
 import { makeSignInUseCase } from "./makeSignInUseCase";
 
 export const makeSignInController = () =>

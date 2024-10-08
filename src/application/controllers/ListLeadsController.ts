@@ -1,4 +1,6 @@
-import { IController, IRequest, IResponse } from "../interfaces/IController";
+import { IController } from "../interfaces";
+
+import { IRequest, IResponse } from "../interfaces/IController";
 
 export class ListLeadsController implements IController {
   async handle(request: IRequest): Promise<IResponse> {

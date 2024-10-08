@@ -1,12 +1,13 @@
 import express, { RequestHandler } from "express";
 
-import { routeAdapter } from "./adapters/routeAdapter";
-import { middlewareAdapter } from "./adapters/middlewareAdapter";
+import {
+  makeAuthenticationMiddleware,
+  makeListLeadsController,
+  makeSignInController,
+  makeSignUpController,
+} from "../factories";
 
-import { makeSignInController } from "../factories/makeSignInController";
-import { makeSignUpController } from "../factories/makeSignUpController";
-import { makeListLeadsController } from "../factories/makeListLeadsController";
-import { makeAuthenticationMiddleware } from "../factories/makeAuthenticationMiddleware";
+import { middlewareAdapter, routeAdapter } from "./adapters";
 
 const app = express();
 

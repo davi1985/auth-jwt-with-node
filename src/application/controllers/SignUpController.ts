@@ -1,8 +1,8 @@
 import { z, ZodError } from "zod";
 
 import { IController, IRequest, IResponse } from "../interfaces/IController";
-import { SignUpUseCase } from "../usecases/SignUpUseCase";
-import { AccountAlreadyExists } from "../errors/AccountAlreadyExits";
+import { SignUpUseCase } from "../usecases";
+import { AccountAlreadyExists } from "../errors";
 
 const schema = z.object({
   name: z.string().min(2),

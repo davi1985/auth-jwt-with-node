@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 
-import { IMiddleware } from "../../application/interfaces/IMiddleware";
+import { IMiddleware } from "../../application/interfaces";
 
 export const middlewareAdapter =
   (middleware: IMiddleware) =>
