@@ -7,7 +7,6 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/davi1985/auth-jwt-with-node?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/davi1985/auth-jwt-with-node?color=56BEB8">
 </p>
 
 <p align="center">
@@ -16,7 +15,6 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/davi1985" target="_blank">Author</a>
 </p>
 
