@@ -62,7 +62,7 @@ $ cd auth-jwt-with-node
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
 # The server will initialize at <http://localhost:3000>
 ```
